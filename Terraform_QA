@@ -1,1 +1,4 @@
 Q1 . What is the difference between terraform taint and untaint
+
+ANS: Terraform taint : Terraform taint command manually marks as terraform resources as tainted and forcing to destroy and recreate on the next apply
+     Terraform Untaint: Manually unmark a resource as tainted, This will not modify your infrastructure. This command changes your state to unmark a resource as tainted.
